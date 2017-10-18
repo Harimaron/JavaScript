@@ -1,15 +1,15 @@
 var langue = "fr";
 var hello;
-if (langue = "fr") { hello === "Bonjour tout le monde" }
-if (langue = "es") { hello === "Hola, Mundo" }
-if (langue = "en") { hello === "Hello world" }
+if (langue === "fr") { hello = "Bonjour tout le monde" };
+if (langue === "es") { hello = "Hola, Mundo" };
+if (langue === "en") { hello = "Hello world" };
 console.log(hello);
 
 var score = 100;
 var result;
-if (score >= 90) { result === "rank A" }
-if (score < 90) { result === "rank B" }
-if (score <= 50) { result === "rank C" }
+if (score >= 90) { result = "rank A" }
+if (score < 90) { result = "rank B" }
+if (score <= 50) { result = "rank C" }
 console.log(result);
 
 var singulier = "pomme"; 
